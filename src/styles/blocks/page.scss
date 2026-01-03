@@ -8,6 +8,10 @@
 
   color: $link-bottom-border;
 
+  &:has(.page__menu:target) {
+    overflow: hidden;
+  }
+
   &__body {
     margin: 0;
     padding: 0;

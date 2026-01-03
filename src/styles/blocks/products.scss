@@ -17,6 +17,11 @@
     display: block;
     width: 100%;
     margin: 0 auto 24px;
+    transition: transform $effectDuration;
+
+    &:hover {
+      transform: scale(1.04);
+    }
   }
 
   &__title {

@@ -6,6 +6,7 @@
 
   background-position: center;
   background-size: cover;
+  cursor: pointer;
 
   @include hover(transform, scale(1.2));
 

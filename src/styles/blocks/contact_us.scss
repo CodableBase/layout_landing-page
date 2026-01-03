@@ -72,6 +72,7 @@
       text-decoration: none;
       color: inherit;
       transition: transform 0.3s;
+      cursor: pointer;
 
       &:hover {
         color: $contacts-info-label;
@@ -89,6 +90,7 @@
     line-height: 27px;
     letter-spacing: 0;
     text-align: center;
+    cursor: pointer;
     color: $main-text-color;
     background-color: $button-color;
     border-style: none;
